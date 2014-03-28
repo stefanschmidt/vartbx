@@ -1,0 +1,1 @@
+This toolbox is intended to be similar to first-level analysis. It measures voxel-based variability and will output Nifti files. The assumption is to proceed with those to level two analysis to model effective interest, however the output could also be used with other statistics programs.
