@@ -1,4 +1,5 @@
 Variability Toolbox for SPM
+Version 0.1
 
 This toolbox measures voxel-based temporal variability in fMRI data, and will output Nifti files. The toolbox structure is intended to be similar to a standard SPM first-level analysis. You can then proceed with those level-1 variability-based images to a level-2 analysis in order to model effects of interest. However, the nii output files could also be used within other statistics programs of your choice (e.g., FSL, AFNI, PLS).
 
@@ -8,3 +9,22 @@ To use the toolbox, you would specify your model in the first-level analysis as 
 
 For further information visit
 http://douglasdgarrett.com/software
+
+To contribute, check out the current release at
+http://github.com/stefanschmidt/VariabilityToolbox
+
+Published by:
+Lifespan Neural Dynamics Group (PI: Douglas Garrett; Developer: Stefan Schmidt),
+Max Planck UCL Centre for Computational Psychiatry and Ageing Research,
+Max Planck Institute for Human Development, Berlin, Germany.
+
+Provided under the GNU General Public License, see LICENSE for terms and conditions.
+
+Caveats
+
+- data transfer may be slow when accessing SMB network shares with OS X
+
+Release History
+
+0.1 (2014-12-20)
+- initial release
