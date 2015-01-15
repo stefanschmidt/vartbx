@@ -1,10 +1,10 @@
-Variability Toolbox for SPM
+VarTbx | Variability Toolbox for SPM
 
-This toolbox measures voxel-based temporal variability in fMRI data, and will output Nifti files. The toolbox structure is intended to be similar to a standard SPM first-level analysis. You can then proceed with those level-1 variability-based images to a level-2 analysis in order to model effects of interest. However, the nii output files could also be used within other statistics programs of your choice (e.g., FSL, AFNI, PLS).
+VarTbx measures within-voxel time series variability in fMRI data. The VarTbx structure is intended to be similar to a standard SPM first-level analysis. You can then proceed to pass those first-level, variability-based images to a level-2 SPM analysis in order to model group effects of interest. However, the first-level NIFTI output files could also be used within other statistics programs of your choice (e.g., FSL, AFNI, PLS).
 
-The toolbox currently supports modeling block designs with a boxcar model, and computes variability using measures such as: detrended standard deviation (SD), variance (VAR), mean squared successive difference (MSSD) and SQRT(MSSD). We plan to add additional modeling approaches and variability measures in future releases.
+VarTbx currently supports modeling block designs with a boxcar model, and computes temporal variability using measures such as: detrended variance (VAR), detrended standard deviation (SD), mean squared successive difference (MSSD), and SQRT(MSSD). We plan to add additional modeling approaches and variability measures in future releases.
 
-To use the toolbox, you would specify your model in the first-level analysis as usual. You then save the model, which is used as input for the toolbox to specify all sessions, conditions, onsets, durations, and nuisance regressors.
+Using VarTbx is relatively straightforward. You first specify your first-level SPM model, as usual. You then save the model, which is used as input to specify all sessions, conditions, onsets, durations, and nuisance regressors for VarTbx. Finally, after choosing a variability metric of interest, variability-based NIFTI images are then produced. A short video tutorial is available on our website.
 
 For further information visit
 http://douglasdgarrett.com/software
