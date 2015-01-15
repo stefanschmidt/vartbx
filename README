@@ -1,4 +1,4 @@
-VarTbx | Variability Toolbox for SPM
+Variability Toolbox (VarTbx) for SPM
 
 VarTbx measures within-voxel time series variability in fMRI data. The VarTbx structure is intended to be similar to a standard SPM first-level analysis. You can then proceed to pass those first-level, variability-based images to a level-2 SPM analysis in order to model group effects of interest. However, the first-level NIFTI output files could also be used within other statistics programs of your choice (e.g., FSL, AFNI, PLS).
 
